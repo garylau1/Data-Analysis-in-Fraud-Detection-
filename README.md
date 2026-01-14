@@ -83,8 +83,8 @@ Correlation between the fraud and other features: TransactionTime (-0.49) and Tr
 Key Metric: High F1-Score indicating a strong balance between Precision and Recall, crucial for minimizing false positives in fraud detection. 
 
 📂 Repository Structure
-├── FinalVersion_Datathon (FINAL).ipynb/             # Jupyter Notebooks for EDA and Modeling
-└── README.md/        # Project documentation
+├── FinalVersion_Datathon (FINAL).ipynb   # Jupyter Notebook for EDA and Modeling
+└── README.md                             # Project documentation
 
 
 🤝 Collaboration
