@@ -1,13 +1,3 @@
-It looks like the text is "squashing" together because Markdown requires an empty blank line between paragraphs to actually create a new line on the screen. If you just press "Enter" once, Markdown treats it as the same line.
-
-To fix this, you need to ensure there is a full empty gap between your headers and your text.
-
-Here is the fixed version using simple bullet points for the file structure (which is much easier to format than the tree diagram).
-
-Copy and paste this EXACTLY into your README file:
-(Make sure you copy the blank lines too!)
-
-Markdown
 
 # 🏦 Fraud Detection Analysis - InterUni Datathon 2024
 
