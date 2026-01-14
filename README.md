@@ -21,7 +21,7 @@ Feature Engineering:
 
 Geospatial Analysis: Mapped coordinates (Lat/Lon) to cities and created a LocationMatch feature to detect location spoofing/mismatches.
 
-Temporal Features: Parsed timestamps to analyze fraud patterns by time of day.
+Time Analysis: Converted transaction times (e.g., "14:30:00") into numerical values (seconds) to help the model detect patterns, such as whether fraud occurs more often at specific times of the day.
 
 Text Cleaning: Processed Currency columns (removing symbols) and standardized categorical data (e.g., DeviceType, TransactionLocation).
 
@@ -77,14 +77,13 @@ Best Model: Random Forest Classifier
 
 Test Accuracy: 97%
 
+Correlation between the fraud and other features: TransactionTime (-0.49) and TransactionType (0.45) show the strongest correlations, indicating that when a transaction occurs and its method (e.g., withdrawals) are the top indicators of fraud.
+
 
 Key Metric: High F1-Score indicating a strong balance between Precision and Recall, crucial for minimizing false positives in fraud detection. 
 
 📂 Repository Structure
-├── data/                  # Raw training and testing data (ignored in git)
-├── notebooks/             # Jupyter Notebooks for EDA and Modeling
-│   └── FinalVersion_Datathon (FINAL).ipynb
-├── predictions/           # Generated submission files
+├── FinalVersion_Datathon (FINAL).ipynb/             # Jupyter Notebooks for EDA and Modeling
 └── README.md              # Project documentation
 🤝 Collaboration
 This project was a collaborative effort.
@@ -93,7 +92,7 @@ This project was a collaborative effort.
 Collaboration
 This project was a collaborative effort where we split tasks to maximize efficiency. My primary contributions included:
 
-Data Cleaning Strategy: I took the lead on data hygiene, specifically writing the logic to identify and remove duplicates and filter out outliers (e.g., negative ages, extreme values) to ensure a clean dataset for the team.
+Data Cleaning Strategy: I write the logic to identify and remove duplicates and filter out outliers (e.g., negative ages, extreme values) to ensure a clean dataset for the team.
 
 Model Development: I led the model testing phase, evaluating various algorithms (Logistic Regression, KNN, SVC) and identifying Random Forest as the optimal solution for this specific dataset.
 
