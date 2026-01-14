@@ -84,7 +84,7 @@ Key Metric: High F1-Score indicating a strong balance between Precision and Reca
 
 📂 Repository Structure
 ├── FinalVersion_Datathon (FINAL).ipynb/             # Jupyter Notebooks for EDA and Modeling
-└── README.md              # Project documentation
+└── README.md/        # Project documentation
 
 
 🤝 Collaboration
