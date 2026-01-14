@@ -50,7 +50,8 @@ Location Mismatches: A custom feature LocationMatch was created to verify if the
 
 Temporal Patterns: Fraudulent activity showed distinct patterns related to the time of transaction (TransactionTime).
 
-🚀 Methodology
+🚀 Methodology:
+
 Data Cleaning: * Cleaned inconsistent data in Age (e.g., negative ages) and Gender.
 
 Standardized city names (e.g., "Mel", "MLB" -> "Melbourne").
@@ -71,7 +72,7 @@ Random Forest proved to be the superior model, balancing bias and variance effec
 
 Hyperparameter tuning was performed to optimize n_estimators, max_depth, and split criteria.
 
-🏆 Results
+🏆 Results:
 
 Best Model: Random Forest Classifier 
 
@@ -87,7 +88,7 @@ Key Metric: High F1-Score indicating a strong balance between Precision and Reca
 └── README.md                             # Project documentation
 
 
-🤝 Collaboration
+🤝 Collaboration:
 
 Collaboration
 This project was a collaborative effort where we split tasks to maximize efficiency. My primary contributions included:
