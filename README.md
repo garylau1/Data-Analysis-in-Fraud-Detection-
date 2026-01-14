@@ -88,8 +88,6 @@ Key Metric: High F1-Score indicating a strong balance between Precision and Reca
 
 
 🤝 Collaboration
-This project was a collaborative effort.
-
 
 Collaboration
 This project was a collaborative effort where we split tasks to maximize efficiency. My primary contributions included:
