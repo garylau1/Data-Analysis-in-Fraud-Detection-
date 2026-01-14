@@ -59,6 +59,7 @@ During the exploratory data analysis (EDA) and feature engineering phase, severa
 * **Best Model:** Random Forest Classifier
 * **Test Accuracy:** **97%**
 * **Key Metric:** High F1-Score indicating a strong balance between Precision and Recall, crucial for minimizing false positives in fraud detection.
+* **Correlation between features and the fraud:** TransactionTime (-0.49) and TransactionType (0.45) show the strongest correlations, indicating that when a transaction occurs and its method (e.g., withdrawals) are the top indicators of fraud.
 
 ## 📂 Repository Structure
 
